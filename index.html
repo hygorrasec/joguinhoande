@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Joguinho ANDE!</title>
+</head>
+<body class="bg-dark">
+    <h1 class="d-flex justify-content-center text-white">JOGUINHO ANDE!</h1>
+    <div class="container d-flex justify-content-center">
+        <table class="table" style="width: 500px;">
+            <tbody>
+                <tr>
+                    <td class="centralizar" id="pos-0x0" style="width: 45px; height: 45px; background-color: green;"><img src="boneco.png" style="width: 100%; height: 100%;"></td>
+                    <td class="centralizar" id="pos-0x1" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-0x2" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-0x3" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-0x4" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-0x5" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-0x6" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-0x7" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-0x8" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-0x9" style="width: 45px; height: 45px; background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td class="centralizar" id="pos-1x0" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-1x1" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-1x2" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-1x3" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-1x4" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-1x5" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-1x6" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-1x7" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-1x8" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-1x9" style="width: 45px; height: 45px; background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td class="centralizar" id="pos-2x0" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-2x1" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-2x2" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-2x3" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-2x4" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-2x5" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-2x6" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-2x7" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-2x8" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-2x9" style="width: 45px; height: 45px; background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td class="centralizar" id="pos-3x0" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-3x1" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-3x2" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-3x3" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-3x4" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-3x5" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-3x6" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-3x7" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-3x8" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-3x9" style="width: 45px; height: 45px; background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td class="centralizar" id="pos-4x0" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-4x1" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-4x2" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-4x3" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-4x4" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-4x5" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-4x6" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-4x7" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-4x8" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-4x9" style="width: 45px; height: 45px; background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td class="centralizar" id="pos-5x0" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-5x1" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-5x2" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-5x3" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-5x4" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-5x5" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-5x6" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-5x7" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-5x8" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-5x9" style="width: 45px; height: 45px; background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td class="centralizar" id="pos-6x0" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-6x1" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-6x2" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-6x3" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-6x4" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-6x5" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-6x6" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-6x7" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-6x8" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-6x9" style="width: 45px; height: 45px; background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td class="centralizar" id="pos-7x0" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-7x1" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-7x2" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-7x3" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-7x4" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-7x5" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-7x6" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-7x7" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-7x8" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-7x9" style="width: 45px; height: 45px; background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td class="centralizar" id="pos-8x0" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-8x1" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-8x2" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-8x3" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-8x4" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-8x5" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-8x6" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-8x7" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-8x8" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-8x9" style="width: 45px; height: 45px; background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td class="centralizar" id="pos-9x0" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-9x1" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-9x2" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-9x3" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-9x4" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-9x5" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-9x6" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-9x7" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-9x8" style="width: 45px; height: 45px; background-color: green;"></td>
+                    <td class="centralizar" id="pos-9x9" style="width: 45px; height: 45px; background-color: green;"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <button id="btn-up" class="btn btn-primary" style="margin: 2px;">CIMA</button>
+        <button id="btn-left" class="btn btn-primary" style="margin: 2px;">ESQUERDA</button>
+        <button id="btn-right" class="btn btn-primary" style="margin: 2px;">DIREITA</button>
+        <button id="btn-down" class="btn btn-primary" style="margin: 2px;">BAIXO</button>
+    </div>
+    <br>
+    <span class="d-flex justify-content-center text-white">Desenvolvido por Hygor Rasec em 13/03/2024 para a disciplina Banco de Dados não relacional ministrada pelo professor Fabrício Dias no curso de Engenharia de Software.</span>
+    <br>
+    <script src="scripts.js"></script>
+</body>
+</html>
